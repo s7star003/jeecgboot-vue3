@@ -1,7 +1,7 @@
 import path from 'path';
 import fs from 'fs-extra';
 
-const uploadUrl = 'http://localhost:3300/static/upload';
+const uploadUrl = 'http://192.168.1.254:3300/static/upload';
 const filePath = path.join(__dirname, '../static/upload/');
 
 fs.ensureDir(filePath);
