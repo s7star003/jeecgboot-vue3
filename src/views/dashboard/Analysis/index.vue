@@ -1,8 +1,8 @@
 <template>
-  <IndexChart v-if="indexStyle === 0"></IndexChart>
-  <IndexDef v-if="indexStyle === 1"></IndexDef>
-  <IndexBdc v-if="indexStyle == 2"></IndexBdc>
-  <IndexTask v-if="indexStyle == 3"></IndexTask>
+  <IndexChart v-if="indexStyle === 0" />
+  <IndexDef v-if="indexStyle === 1" />
+  <IndexBdc v-if="indexStyle == 2" />
+  <IndexTask v-if="indexStyle == 3" />
   <div style="width: 100%; text-align: right; margin-top: 20px">
     首页主题：
     <a-radio-group v-model:value="indexStyle">
